@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flatify</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/flattener.js"></script>
+</head>
+<body>
+	<h1>Json Flattener</h1>
+	<div class="flex-container">
+		<div>
+			<textarea class="half-width " id="inputBox" type="text"></textarea>
+			<div class="bottom-container">
+				<button onclick="mainFunction()">Convert</button>
+				<button onclick="formatInput()">Format</button> 
+				<div class="size"> 
+					Size: <span id="inputSize"> 0 </span>
+				</div>
+			</div>
+		</div>
+		<div>
+			<textarea class="half-width" id="outputBox" type="text" readonly></textarea>
+			<div class="bottom-container">
+				<button onclick="copyOutput()">Copy</button>
+				<div class="size"> 
+					Size: <span id="outputSize"> 0 </span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

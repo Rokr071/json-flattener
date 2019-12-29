@@ -1,0 +1,46 @@
+textarea {
+	width: 45vw;
+	height: 80vh;
+	margin-right: 2.5vh
+}
+
+.flex-container {
+	display: flex;
+	height: 100%;
+}
+
+.half-width {
+
+}
+#outputBox {
+	font-size: 1.2em;
+}
+#inputBox {
+	font-size: 1.2em;
+}
+
+.bottom-container {
+	display: flex;
+	justify-content: space-between;
+}
+.size {
+	justify-content: center;
+	margin-right: 10%;
+}
+
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #E6E9ED;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #E6E9ED;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #AAB2BD;
+}
+
+
+ /*scrollbar customization end*/
